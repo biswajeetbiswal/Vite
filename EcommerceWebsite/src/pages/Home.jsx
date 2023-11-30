@@ -39,11 +39,11 @@ const Home = () => {
       <div
         className={
           product
-            ? " w-full h-screen fixed z-20 left-0 top-0 bg-[#0000007d] "
+            ? " w-full h-screen fixed z-20  left-0 top-0 bg-[#0000007d] "
             : "hidden"
         }
       >
-        <div className="  max-w-[400px] w-full h-full  bg-white top-0 p-6 absolute right-0">
+        <div className="  max-w-[400px] w-full h-full  bg-white top-0 p-6 absolute right-0 overflow-y-scroll">
           <div className="text-[24px] flex justify-end ">
             <AiOutlineClose
               onClick={() => setProduct(!product)}
